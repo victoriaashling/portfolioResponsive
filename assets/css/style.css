@@ -138,7 +138,7 @@ footer {
     float: left;
     margin-right: 1em;
     margin-bottom: 1em;
-    height: 200px;
+    height: 190px;
 }
 
 .project-container {
@@ -212,5 +212,17 @@ footer {
         width: 100vw;
         margin: 0;
         height: 7em;
+    }
+
+    img {
+        clear: both;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    p {
+        clear: both;
+        display: block;
     }
 }
