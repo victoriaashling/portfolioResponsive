@@ -137,8 +137,8 @@ footer {
 .headshot {
     float: left;
     margin-right: 1em;
-    margin-bottom: 1em;
-    height: 190px;
+    margin-bottom: .5em;
+    height: 240px;
 }
 
 .project-container {
@@ -177,6 +177,7 @@ footer {
     
     .margin-correct {
         padding: 0 3vw;
+        width: 94vw;
     }
 
     .container {
@@ -184,7 +185,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 760px) {    
     .container {
         width: 94vw;
     }
@@ -214,11 +215,16 @@ footer {
         height: 7em;
     }
 
-    img {
-        clear: both;
+    .headshot {
+        float: none;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto 1em;
+    }
+
+    .project {
+        float: none;
+        display: block;
+        left: calc(50% - 160px);
     }
 
     p {
